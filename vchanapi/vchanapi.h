@@ -17,6 +17,7 @@
 
 #pragma pack(push, 1)
 struct VChanMessageHeader {
+    char     source[16];
     uint32_t dataSize;
     uint8_t  sha256[32];
 };
