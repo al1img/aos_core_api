@@ -3,4 +3,3 @@
 Contains AoS core API:
 
 * [proto](proto) - gRPC protobufs
-
